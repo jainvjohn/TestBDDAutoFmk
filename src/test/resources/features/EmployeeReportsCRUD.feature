@@ -1,6 +1,6 @@
 Feature: Employee Reports CRUD and Search Operations
 
-  @DryRun1
+  @DryRun
   Scenario Outline: I am able to add edit search generate and delete  the employee report
     Given Navigate to PIM after log in with Admin user
     When I add Custom Report with below ReportName as "<ReportName>" and below Display field group and field names
