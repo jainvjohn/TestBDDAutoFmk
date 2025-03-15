@@ -144,6 +144,7 @@ public class EmployeeCRUD extends Base {
 				empReports.getGeneratedReportFields(scenario).get("Employee First Name"));
 	}
 
+	
 	@After
 	public void closeApplication(Scenario scenario) {
 		scenario.write("Closing the application");

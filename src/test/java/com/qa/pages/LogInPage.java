@@ -34,7 +34,7 @@ public class LogInPage {
 
 	/**
 	 * @param driver
-	 *                       This is page class constructer of page factory
+	 *                       This is page class constructor of page factory
 	 *            design pattern
 	 */
 	public LogInPage(WebDriver driver) {
